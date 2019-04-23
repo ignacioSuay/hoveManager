@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ignaciosuay.hovemanager"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "hoveManager",
+    "packageName": "com.ignaciosuay.hovemanager",
+    "packageFolder": "com/ignaciosuay/hovemanager",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "ZjE0MDZlN2ExODZmMmU5MThiOWQzYTZlNWFjYTRiYTkzYTJjZGY5NThmZTEyZjNlZDVkNTBiYWYwMjU0OTIzOTU0YzNmZTJiODA1MjYyOWY3ZmNjZTgwYjRhZDM3NGFhYjc4MWI3NTliMWM1OGM2MmQyNzY2YTMyNjQ3ZDJhOGE=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
