@@ -1,9 +1,9 @@
 version: '2'
 services:
   jenkins:
-    image: jenkins:latest
+    image: jenkins/jenkins:lts
     ports:
-      - 49001:8080
+      - 18080:8080
       - 50000:50000
     # uncomment for docker in docker
     #privileged: true
